@@ -18,6 +18,14 @@ class TenRestaurantsFour::Scraper
       TenRestaurantsFour::Restaurants.new_from_index_page(r)
     end
   end
+
+  def res_details(url)
+    res = Nokogiri::HTML(open(url))
+    res_info = res.css("article.article section#information p.text-justify").text
+    # TenRestaurantsFour::Restaurants.new.details(res_info)
+    puts res_info
+  end
+
 end
 
 
