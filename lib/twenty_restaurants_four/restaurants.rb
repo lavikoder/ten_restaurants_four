@@ -1,7 +1,7 @@
 require 'pry'
 require "nokogiri"
 
-class TenRestaurantsFour::Restaurants
+class TwentyRestaurantsFour::Restaurants
 
   attr_accessor :name, :cuisine, :location, :url, :details
 

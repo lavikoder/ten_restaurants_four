@@ -1,28 +1,27 @@
-# TenRestaurantsFour
+# TwentyRestaurantsFour
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ten_restaurants_four`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to TwentyRestaurantsFour! This app allows users to find the Top TwentyRestaurantsFour Restaurants in London and a short description. It will iterate through a collection of restaurants from DiscoEats discount platform.
+The first level scrap displays the information of the Restaurants name, location and cuisine. The user will then choose which restaurant they get more information on by choosing a number from 1-10.
+The app will then scrap the description using the specific Restaurants url. The description is then displayed on the terminal. User will also have the choice to choose another restaurant to read description or exit the app.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Run: bundle install
 
-```ruby
-gem 'ten_restaurants_four'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install ten_restaurants_four
+- for dependencies on your terminal
 
 ## Usage
 
 TODO: Write usage instructions here
+
+To run app:
+
+- ruby bin/selection.rb
+
+To run pry:
+
+- rub bin/console
 
 ## Development
 
@@ -32,8 +31,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ten_restaurants_four. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/lavikoder/twenty_restaurants_four. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Code of Conduct
 
-Everyone interacting in the TenRestaurantsFour project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/ten_restaurants_four/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the TwentyRestaurantsFour project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/lavikoder/twenty_restaurants_four/blob/master/CODE_OF_CONDUCT.md).
